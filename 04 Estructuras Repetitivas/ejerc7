@@ -1,0 +1,5 @@
+numero = int(input("Ingresa un número entero positivo: "))
+total = 0
+for i in range(numero + 1):
+    total += i
+print("La suma es:", total)

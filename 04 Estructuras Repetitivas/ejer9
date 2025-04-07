@@ -1,0 +1,7 @@
+total = 0
+for i in range(100):
+    numero = int(input(f"Ingrese el número {i+1}: "))
+    total += numero
+
+media = total / 100
+print("La media es:", media)
