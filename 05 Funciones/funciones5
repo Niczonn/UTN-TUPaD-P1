@@ -1,0 +1,11 @@
+import math
+
+def segundos_a_horas(segundos):
+    return segundos / 3600
+
+# Programa principal
+if __name__ == "__main__":
+    segundos = int(input("Ingresá la cantidad de segundos: "))
+    horas = segundos_a_horas(segundos)
+    print(f"{segundos} segundos equivalen a {horas:.2f} horas.")
+    
